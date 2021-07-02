@@ -1,6 +1,5 @@
 // // ____Data Definations____ // //
 
-
 // Example Boards for Test
 
 const a = null
@@ -53,11 +52,12 @@ var board4 = [  [1, 2, 3, 4, 5, 6, 7, 8, a],
 // // ____Function Definations____ // //
 
 function hardcodedboard(){
-    window.location.href = 'hardcodeindex.html';
+    window.location.href = '/';
 }
 
 function newboard(){
-    window.location.href = 'index.html';
+    window.location.href = '/index.html';
+
 }
 
 // Board is List[List[Int]] or false

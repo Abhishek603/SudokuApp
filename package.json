@@ -1,0 +1,33 @@
+{
+  "name": "sudoku-app",
+  "version": "1.0.0",
+  "description": "Sudoku Solver",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "engines": {
+    "node": ">=14.17.1",
+    "npm": ">=6.14.13"
+  },
+  "author": "Abhishek",
+  "license": "",
+  "dependencies": {
+    "colors": "~0.6.2",
+    "express": "^4.17.1",
+    "optimist": "~0.6.0",
+    "osenv": "0.0.3",
+    "request": "~2.27.0",
+    "stream-wrapper": "~0.1.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Abhishek603/SudokuApp.git" 
+  },
+  "bugs": {
+    "url": "https://github.com/Abhishek603/SudokuApp/issues"
+  },
+  "homepage": "https://github.com/Abhishek603/SudokuApp"
+}
